@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Vinay Tambey" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Life-Timer by VT</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <main>
+        <header>
+            <!-- --------------------- HEADING ------------------------ -->
+            <h1>Kindly Enter Your Date of Birth</h1>
+
+            <!-- --------------------- TIMER ------------------------ -->
+            <div class="timer hidden">
+                <div class="time-content">
+                    <span id="yearsVal" class="time-val">00</span>
+                    <span id="yearsTxt" class="time-txt">Years</span>
+                </div>
+
+                <div class="time-content">
+                    <span id="monthsVal" class="time-val">00</span>
+                    <span id="monthsTxt" class="time-txt">Months</span>
+                </div>
+
+                <div class="time-content">
+                    <span id="daysVal" class="time-val">00</span>
+                    <span id="daysTxt" class="time-txt">Days</span>
+                </div>
+
+                <div class="time-content">
+                    <span id="hrsVal" class="time-val">00</span>
+                    <span id="hrsTxt" class="time-txt">Hours</span>
+                </div>
+
+                <div class="time-content">
+                    <span id="minsVal" class="time-val">00</span>
+                    <span id="minsTxt" class="time-txt">Mins</span>
+                </div>
+
+                <div class="time-content">
+                    <span id="secondsVal" class="time-val">00</span>
+                    <span id="secondsTxt" class="time-txt">Seconds</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- --------------------- BACKGROUND VIDEO ------------------------ -->
+        <video class="bg-video" muted autoplay loop>
+            <source src="assets/bg-video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <!-- --------------------- ADD-DOB FIELD ------------------------ -->
+        <footer class="set-date">
+            <a href="https://github.com/VinayNoogler000/Life-Timer" target="_blank"> <i class="fa-brands fa-github"> </i></a>
+            <i class="fa-solid fa-gear"></i>
+
+            <form class="add-dob hidden">
+                <input type="date" id="dobInp" name="date" required>
+                <button type="submit" id="dobBtn">Add DOB</button>
+            </form>
+        </footer>
+    </main>
+
+    <!-- -------------------------SCRIPT TAGS---------------------------- -->
+    <script src="https://kit.fontawesome.com/3466756a59.js" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
