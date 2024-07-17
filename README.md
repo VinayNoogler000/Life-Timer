@@ -1,10 +1,12 @@
 # Life Timer
+
 Life Timer is a dynamic webpage built using HTML, CSS, and JavaScript technologies. It allows users to enter their Date of Birth and see their age displayed as a continuously updating timer, making every second count!
 
-![Life Timer Screenshot](path_to_screenshot_image)
+![Life-Timer Screenshot](https://i.postimg.cc/MKk7202m/Life-Timer.png)
 
 
 ## 🚀 Project Description
+
 Life Timer is designed to provide a live display of a user's age, down to the second, by calculating the time elapsed since their birth. This project showcases fundamental web development skills and features a clean, responsive design.
 
 
@@ -34,7 +36,7 @@ Life Timer is designed to provide a live display of a user's age, down to the se
 
 
 ## 🎥 Demo
-Check out the live demo of the Life Timer [here](https://your-deployed-project-link).
+Check out the live demo of the Life Timer [here](https://life-timer-by-vt.vercel.app/).
 
 
 ## 🛠 How to Install and Run Locally
@@ -57,10 +59,10 @@ Check out the live demo of the Life Timer [here](https://your-deployed-project-l
 ``` bash
 ├── index.html
 ├── styles.css
-├── script.js
+├── app.js
 └── assets
-    ├── lake-video.mp4
-    ├── hourglass-video.mp4
+    ├── bg-video.mp4
+    ├── bg-video-2.mp4
 ```
 
 ## 🤝 Contributions
@@ -72,7 +74,7 @@ If you have any feedback, please reach out to me at vinaytambey000@gmail.com.
 
 
 ## 📜 License
-This project is licensed under the MIT License. See the [LICENSE]() file for more details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/VinayNoogler000/Life-Timer/blob/main/LICENSE.txt) file for more details.
 
 
 ## 🌐 Connect with Me
