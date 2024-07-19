@@ -102,6 +102,12 @@ h1 {
     transform: scale(1.2);
 }
 
+abbr {
+    text-decoration: none;
+    display: grid;
+    place-items: center;
+}
+
 /* ------------------------------ DOB-FORM ------------------------------- */
 .add-dob {
     display: flex;
